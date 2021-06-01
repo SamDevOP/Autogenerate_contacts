@@ -1,5 +1,5 @@
 from random import randint
-#from time import clock
+from time import clock
 
 def genrandom():
     last=""
