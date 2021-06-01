@@ -1,5 +1,5 @@
 from random import randint
-from random import randint
+#from time import clock
 
 def genrandom():
     last=""
@@ -12,7 +12,7 @@ def genrandom():
 
 #validate the input 
 #handle the input error
-
+start=clock()
 try:
     contact=int(input("Enter the number of contacts you want: "))
     
@@ -27,5 +27,7 @@ try:
 except ValueError:
     print("You have not entered an integer")
 
+stop=clock()
 
+print("Program took: ",stop-start )
 
