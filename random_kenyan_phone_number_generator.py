@@ -15,6 +15,7 @@ def genrandom():
 
 try:
     contact=int(input("Enter the number of contacts you want: "))
+    
     for i in range(0,contact):
         k=genrandom()
         #print("07" + str(k))
